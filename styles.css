@@ -1,0 +1,84 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+  font-size: 1vw;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 400px;
+}
+
+.content {
+  background-color: hsl(0, 0%, 100%);
+  padding: 24px 24px 12px 24px;
+  border-radius: 16px;
+  border: solid 1px hsl(0, 0%, 7%);
+  box-shadow: 6px 6px hsl(0, 0%, 7%);
+}
+
+.content:hover,
+.content:active {
+  box-shadow: 16px 16px hsl(0, 0%, 7%);
+  cursor: pointer;
+}
+
+.illustration-img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.btn,
+.published,
+.title {
+  color: hsl(0, 0%, 7%);
+}
+
+.btn {
+  border: none;
+  background-color: hsl(47, 88%, 63%);
+  font-weight: 800;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.published {
+  font-size: 14px;
+}
+
+.title {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.title:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+.title-description {
+  font-size: 16px;
+  letter-spacing: 1.1px;
+  color: hsl(0, 0%, 50%);
+}
+
+.title-author {
+  display: flex;
+  align-items: center;
+}
+
+.title-author-img {
+  width: 32px;
+  height: 32px;
+}
+
+.title-author span {
+  font-weight: 800;
+  font-size: 14px;
+}
